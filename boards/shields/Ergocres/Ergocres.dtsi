@@ -45,7 +45,7 @@ split_inputs {
       status = "disabled";
         input-processors =
            <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_X_INVERT)>,
-           <&zip_report_rate_limit 8>, <&zip_xyz>;
+           <&zip_report_rate_limit 8>;
     };
     
     kscan0: kscan {
