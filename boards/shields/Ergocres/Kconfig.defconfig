@@ -1,7 +1,7 @@
-if SHIELD_MONOOWL_R
+if SHIELD_ERGOCRES_R
 
 config ZMK_KEYBOARD_NAME
-    default "MonoOwl_R"
+    default "Ergocres_R"
 
 config ZMK_SPLIT
     default y
@@ -11,10 +11,10 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if SHIELD_MONOOWL_L
+if SHIELD_ERGOCRES_L
 
 config ZMK_KEYBOARD_NAME
-    default "MonoOwl_L"
+    default "Ergocres_L"
 
 config ZMK_SPLIT
     default y

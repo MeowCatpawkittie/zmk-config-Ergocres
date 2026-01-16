@@ -1,0 +1,5 @@
+config SHIELD_ERGOCRES_R
+    def_bool $(shields_list_contains,Ergocres_R)
+
+config SHIELD_ERGOCRES_L
+    def_bool $(shields_list_contains,Ergocres_L)
